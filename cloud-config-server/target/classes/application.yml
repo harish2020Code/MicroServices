@@ -1,0 +1,12 @@
+server:
+  port: 9296
+spring:
+  application:
+    name: CONFIG-SERVICE
+
+cloud:
+  config:
+    server:
+      git:
+        url: https://github.com/harish2020Code/config-server
+        clone-on-start: true
